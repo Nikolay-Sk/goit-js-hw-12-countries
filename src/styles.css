@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: cursive;
+}
+
+.search {
+  text-align: center;
+}
+
+.listCountries {
+  display: flex;
+  margin-left: 44%;
+}
+
+.listItemCountrie {
+  list-style-type: none;
+}
+
+.countrieItem {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.countrieBox {
+  margin-right: 90px;
+  text-align: initial;
+}
+
+.name {
+  text-align: center;
+}
+
+.flag {
+  width: 30%;
+}
